@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "machine-learning-utils"
+version = "0.1.0"
+description = ""
+authors = ["Sami EL KATEB <67482346+SamiElkateb@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "machine_learning_utils"}]
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+numpy = "^1.25.2"
+pandas = "^2.1.0"
+matplotlib = "^3.7.3"
+tensorflow = "^2.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
